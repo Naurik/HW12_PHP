@@ -1,0 +1,22 @@
+{
+    "name": "step/composer",
+    "description": "Tag home work with composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "invokedex@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Step\\": "./app",
+            "TagElement\\": "./app/HTML/TagElements"
+        }
+    }
+}
